@@ -1,3 +1,0 @@
-/home/clappingmonkey/develop/learn/Code-Academy_Projects/C_Strypes/WarCraft/build/CMakeFiles/rebuild_cache.dir
-/home/clappingmonkey/develop/learn/Code-Academy_Projects/C_Strypes/WarCraft/build/CMakeFiles/warcraft.dir
-/home/clappingmonkey/develop/learn/Code-Academy_Projects/C_Strypes/WarCraft/build/CMakeFiles/edit_cache.dir
