@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/warcraft.dir/src/Archmage.c.o CMakeFiles/warcraft.dir/src/castSpell.c.o CMakeFiles/warcraft.dir/src/DeathKnight.c.o CMakeFiles/warcraft.dir/src/DrawRanger.c.o CMakeFiles/warcraft.dir/src/Hero.c.o CMakeFiles/warcraft.dir/src/main.c.o  -o warcraft 
