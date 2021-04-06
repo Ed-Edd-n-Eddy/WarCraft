@@ -1,11 +1,11 @@
-#include <stdlib.h>
+ #include <stdlib.h>
 #include <stdio.h>
+
 #include "Hero.h"
 #include "Defines.h"
 #include "Archmage.h"
 
 void createArchmage(Hero *archmage, const char *inputName, int inputMaxMana, int inputManaRegenRate, int manaRegMod){
-    
     inputManaRegenRate *= manaRegMod;
 
     heroBaseInit(archmage, inputName, inputMaxMana, inputManaRegenRate);
@@ -24,11 +24,9 @@ void basicSpellArchmage(Hero *archmage){
 }
 
 void ultimateSpellArchmage(Hero *archmage){
-    
     if(archmage->currMana >= ARCHMAGE_ULTIMATE_SPELL_MANA_COST){
         archmage->currMana -= ARCHMAGE_ULTIMATE_SPELL_MANA_COST;
         printf("%s casted %s for %d mana\n", archmage->name, archmage->spells[ULTIMATE].name, ARCHMAGE_ULTIMATE_SPELL_MANA_COST);
-        //regenarateManaArchmage(archmage);
         regenarateMana(archmage);
     }else{
         printf("%s - not enough mana to cast %s\n", archmage->name, archmage->spells[ULTIMATE].name);

@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 #include "Hero.h"
 #include "Archmage.h"
 #include "DeathKnight.h"
@@ -23,7 +24,7 @@ int main(void){
   
   //read Draw Ranger data
   scanf("%s %d %d", name, &maxMana, &baseManaRegenRate);
-  createDrawRanger(&heroes[DRAW_RANGER], name, maxMana, baseManaRegenRate); 
+  createDrawRanger(&heroes[DRAW_RANGER], name, maxMana, baseManaRegenRate);
  
   int commandsCount = 0;
   int currAction = 0;

@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 #include "Hero.h"
 #include "Defines.h"
 #include "DeathKnight.h"
 
 void createDeathKnight(Hero *deathKnight, const char *inputName, int inputMaxMana, int inputManaRegenRate){
-        
+
     heroBaseInit(deathKnight, inputName, inputMaxMana, inputManaRegenRate);
     heroSpellsInit(deathKnight, DEATH_KNIGHT_BASIC_SPELL_NAME, DEATH_KNIGHT_BASIC_SPELL_MANA_COST,
                     DEATH_KNIGHT_ULTIMATE_SPELL_NAME, DEATH_KNIGHT_ULTIMATE_SPELL_MANA_COST);

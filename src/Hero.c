@@ -17,7 +17,7 @@ void heroSpellsInit(Hero *hero, const char *basicSpellName, int basicSpellManaCo
     strcpy(hero->spells[BASIC].name, basicSpellName);
     hero->spells[BASIC].manaCost = basicSpellManaCost;
     strcpy(hero->spells[ULTIMATE].name, ultimateSpellName);
-    hero->spells[ULTIMATE].manaCost = ultimateSpellManaCost;    
+    hero->spells[ULTIMATE].manaCost = ultimateSpellManaCost;
 }
 
 void regenarateMana(Hero *hero){
